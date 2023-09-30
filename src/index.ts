@@ -5,7 +5,7 @@ interface Color {
 }
 
 const color: Color = {
-    red: 10, 
+    red: 20, 
     blue: 10,
     green: 10
 };
@@ -13,4 +13,5 @@ const color: Color = {
 console.log(color);
 
 //npm install typescript del-cli --save-dev
+//npm version patch
 export default color;
