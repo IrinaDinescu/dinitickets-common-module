@@ -13,6 +13,7 @@ export abstract class Publisher<T extends Event> {
 
   constructor(client: Stan) {
     this.client = client;
+    console.log(client);
   }
 
   publish(data: T['data']): Promise<void> {
